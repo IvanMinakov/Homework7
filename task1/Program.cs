@@ -15,9 +15,9 @@ void PrintArray(int[,] array)
         System.Console.WriteLine();
     }
 }
-System.Console.WriteLine("Введие полкичество строк");
+System.Console.WriteLine("Введие количество строк");
 int rows = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введие полкичество столбцов");
+System.Console.WriteLine("Введие количество столбцов");
 int cols = Convert.ToInt32(Console.ReadLine());
 int[,] array = new int[rows, cols];
 FillArray(array);
