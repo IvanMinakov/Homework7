@@ -35,6 +35,7 @@ void FindNumber(int[,] array)
             }
     if (check == false) System.Console.WriteLine("Такого числа в матрице нет");
 }
+
 System.Console.WriteLine("Введие количество строк");
 int rows = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введие количество столбцов");
