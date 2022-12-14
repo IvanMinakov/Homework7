@@ -18,15 +18,16 @@ void PrintArray(int[,] array)
 
 void Average(int[,] array)
 {
-    double summ = 0; ;
     System.Console.WriteLine();
     for (int j = 0; j < array.GetLength(1); j++)
     {
+            double summ = 0; ;
+
         for (int i = 0; i < array.GetLength(0); i++)
         {
             summ += array[i, j];
         }
-        System.Console.WriteLine($"Среднеарифметическое Столбца - {Math.Round(summ / array.GetLength(0)),3} ");
+        System.Console.WriteLine($"Среднеарифметическое Столбца - {Math.Round(summ / array.GetLength(0),2)} ");
     }
 
 }
